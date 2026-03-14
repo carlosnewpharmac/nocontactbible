@@ -1,0 +1,757 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>The No Contact Bible — Stop Stalking Their Instagram. Start Healing.</title>
+  <meta name="description" content="A 30-day protocol to heal, reclaim your power, and stop checking their Instagram at 3am. $17 instant download." />
+
+  <!-- Meta Pixel Code -->
+  <script>
+  !function(f,b,e,v,n,t,s)
+  {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+  n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+  if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+  n.queue=[];t=b.createElement(e);t.async=!0;
+  t.src=v;s=b.getElementsByTagName(e)[0];
+  s.parentNode.insertBefore(t,s)}(window, document,'script',
+  'https://connect.facebook.net/en_US/fbevents.js');
+  fbq('init', '1523624013100378');
+  fbq('track', 'PageView');
+  fbq('track', 'ViewContent', {
+    content_name: 'The No Contact Bible',
+    content_category: 'Ebook',
+    value: 17.00,
+    currency: 'USD'
+  });
+  </script>
+  <noscript><img height="1" width="1" style="display:none"
+  src="https://www.facebook.com/tr?id=1523624013100378&ev=PageView&noscript=1"
+  /></noscript>
+  <!-- End Meta Pixel Code -->
+
+  <!-- Gumroad overlay checkout -->
+  <script src="https://gumroad.com/js/gumroad.js"></script>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=DM+Sans:wght@400;500;600&display=swap" rel="stylesheet" />
+
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --amber:     #F0AA22;
+      --amber-dk:  #C98B10;
+      --amber-lt:  #FDF3D8;
+      --brown:     #5C3800;
+      --brown-lt:  #7A5200;
+      --ink:       #1A1108;
+      --body:      #3D2D10;
+      --muted:     #9A7A40;
+      --white:     #FFFFFF;
+      --off:       #FFFDF5;
+      --rule:      #ECD99A;
+      --red:       #CC2222;
+    }
+
+    html { scroll-behavior: smooth; }
+
+    body {
+      font-family: 'DM Sans', sans-serif;
+      background: var(--off);
+      color: var(--body);
+      overflow-x: hidden;
+    }
+
+    /* ── HERO ── */
+    .hero {
+      background: var(--amber);
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      padding: 60px 24px 80px;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .hero::before {
+      content: '';
+      position: absolute;
+      inset: 0;
+      background:
+        radial-gradient(ellipse at 15% 10%, rgba(201,139,16,0.5) 0%, transparent 55%),
+        radial-gradient(ellipse at 85% 90%, rgba(201,139,16,0.5) 0%, transparent 55%);
+      pointer-events: none;
+    }
+
+    .hero-badge {
+      display: inline-block;
+      background: var(--brown);
+      color: var(--amber-lt);
+      font-size: 11px;
+      font-weight: 600;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      padding: 6px 16px;
+      border-radius: 100px;
+      margin-bottom: 32px;
+      position: relative;
+    }
+
+    .hero h1 {
+      font-family: 'Playfair Display', serif;
+      font-weight: 900;
+      font-size: clamp(42px, 9vw, 80px);
+      line-height: 1.05;
+      color: var(--white);
+      margin-bottom: 28px;
+      position: relative;
+      max-width: 720px;
+    }
+
+    .hero h1 em {
+      font-style: normal;
+      color: var(--brown);
+    }
+
+    .hero-sub {
+      font-size: clamp(17px, 2.5vw, 21px);
+      color: var(--brown);
+      max-width: 520px;
+      line-height: 1.6;
+      margin-bottom: 44px;
+      position: relative;
+      font-weight: 500;
+    }
+
+    .cta-btn {
+      display: inline-block;
+      background: var(--brown);
+      color: var(--amber-lt);
+      font-family: 'DM Sans', sans-serif;
+      font-size: 17px;
+      font-weight: 600;
+      padding: 18px 40px;
+      border-radius: 8px;
+      text-decoration: none;
+      position: relative;
+      transition: transform 0.15s, box-shadow 0.15s;
+      box-shadow: 0 4px 20px rgba(92,56,0,0.35);
+      letter-spacing: 0.01em;
+    }
+
+    .cta-btn:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 8px 30px rgba(92,56,0,0.45);
+    }
+
+    .cta-btn:active { transform: translateY(0); }
+
+    .cta-price {
+      display: block;
+      font-size: 13px;
+      font-weight: 400;
+      color: var(--amber-dk);
+      margin-top: 12px;
+      position: relative;
+    }
+
+    /* Book mockup */
+    .book-wrap {
+      position: relative;
+      margin: 52px auto 0;
+      width: 200px;
+    }
+
+    .book-cover {
+      width: 200px;
+      height: 280px;
+      background: var(--amber-dk);
+      border-radius: 4px 12px 12px 4px;
+      box-shadow:
+        -6px 0 0 rgba(92,56,0,0.4),
+        0 20px 60px rgba(92,56,0,0.5),
+        inset 6px 0 12px rgba(255,255,255,0.08);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-between;
+      padding: 24px 16px 20px;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .book-cover::before {
+      content: '';
+      position: absolute;
+      top: 0; left: 0; right: 0; bottom: 0;
+      background: radial-gradient(ellipse at 30% 30%, rgba(255,255,255,0.06) 0%, transparent 60%);
+    }
+
+    .book-title {
+      font-family: 'Playfair Display', serif;
+      font-weight: 900;
+      font-size: 22px;
+      color: var(--white);
+      text-align: center;
+      line-height: 1.2;
+      position: relative;
+    }
+
+    .book-icon {
+      width: 80px;
+      height: 80px;
+      position: relative;
+    }
+
+    .book-brand {
+      font-size: 10px;
+      font-weight: 600;
+      letter-spacing: 0.12em;
+      color: var(--amber-lt);
+      text-transform: uppercase;
+      position: relative;
+    }
+
+    /* ── PAIN SECTION ── */
+    .pain {
+      background: var(--ink);
+      color: var(--white);
+      padding: 80px 24px;
+      text-align: center;
+    }
+
+    .pain h2 {
+      font-family: 'Playfair Display', serif;
+      font-size: clamp(26px, 5vw, 40px);
+      font-weight: 700;
+      margin-bottom: 48px;
+      color: var(--amber);
+      max-width: 600px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    .pain-items {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+      max-width: 580px;
+      margin: 0 auto 52px;
+    }
+
+    .pain-item {
+      background: rgba(255,255,255,0.04);
+      border: 1px solid rgba(240,170,34,0.15);
+      border-left: 3px solid var(--amber);
+      border-radius: 8px;
+      padding: 18px 22px;
+      text-align: left;
+      font-size: 16px;
+      line-height: 1.6;
+      color: rgba(255,255,255,0.82);
+    }
+
+    .pain-item strong {
+      color: var(--amber);
+    }
+
+    .pain-p {
+      font-size: 17px;
+      line-height: 1.7;
+      color: rgba(255,255,255,0.65);
+      max-width: 520px;
+      margin: 0 auto;
+    }
+
+    /* ── WHAT IT IS ── */
+    .what {
+      background: var(--off);
+      padding: 80px 24px;
+      text-align: center;
+    }
+
+    .section-label {
+      font-size: 11px;
+      font-weight: 600;
+      letter-spacing: 0.14em;
+      text-transform: uppercase;
+      color: var(--amber-dk);
+      margin-bottom: 12px;
+    }
+
+    .what h2 {
+      font-family: 'Playfair Display', serif;
+      font-size: clamp(26px, 5vw, 38px);
+      font-weight: 700;
+      color: var(--ink);
+      max-width: 580px;
+      margin: 0 auto 48px;
+      line-height: 1.25;
+    }
+
+    .benefits {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: 20px;
+      max-width: 820px;
+      margin: 0 auto 52px;
+      text-align: left;
+    }
+
+    .benefit {
+      background: var(--white);
+      border: 1px solid var(--rule);
+      border-radius: 10px;
+      padding: 22px 22px 20px;
+    }
+
+    .benefit-icon {
+      width: 36px;
+      height: 36px;
+      background: var(--amber-lt);
+      border-radius: 8px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-bottom: 12px;
+      font-size: 18px;
+    }
+
+    .benefit h3 {
+      font-size: 15px;
+      font-weight: 600;
+      color: var(--ink);
+      margin-bottom: 6px;
+    }
+
+    .benefit p {
+      font-size: 14px;
+      line-height: 1.6;
+      color: var(--muted);
+    }
+
+    /* ── CHAPTERS ── */
+    .chapters {
+      background: var(--amber-lt);
+      padding: 80px 24px;
+      text-align: center;
+    }
+
+    .chapters h2 {
+      font-family: 'Playfair Display', serif;
+      font-size: clamp(24px, 4vw, 34px);
+      color: var(--ink);
+      margin-bottom: 40px;
+    }
+
+    .chapter-list {
+      max-width: 560px;
+      margin: 0 auto;
+      text-align: left;
+    }
+
+    .chapter-row {
+      display: flex;
+      align-items: flex-start;
+      gap: 16px;
+      padding: 16px 0;
+      border-bottom: 1px solid var(--rule);
+    }
+
+    .chapter-row:last-child { border-bottom: none; }
+
+    .ch-num {
+      font-size: 11px;
+      font-weight: 600;
+      color: var(--amber-dk);
+      letter-spacing: 0.08em;
+      min-width: 72px;
+      padding-top: 2px;
+    }
+
+    .ch-title {
+      font-size: 15px;
+      font-weight: 500;
+      color: var(--ink);
+      line-height: 1.4;
+    }
+
+    /* ── QUOTE ── */
+    .quote-section {
+      background: var(--amber);
+      padding: 70px 24px;
+      text-align: center;
+    }
+
+    .quote-text {
+      font-family: 'Playfair Display', serif;
+      font-size: clamp(20px, 4vw, 30px);
+      font-style: italic;
+      color: var(--brown);
+      max-width: 640px;
+      margin: 0 auto 16px;
+      line-height: 1.5;
+    }
+
+    .quote-attr {
+      font-size: 13px;
+      color: var(--brown-lt);
+      font-weight: 500;
+    }
+
+    /* ── PURCHASE ── */
+    .purchase {
+      background: var(--off);
+      padding: 80px 24px;
+      text-align: center;
+    }
+
+    .purchase-card {
+      background: var(--white);
+      border: 2px solid var(--rule);
+      border-radius: 16px;
+      max-width: 480px;
+      margin: 0 auto;
+      padding: 44px 36px 40px;
+      box-shadow: 0 8px 40px rgba(92,56,0,0.08);
+    }
+
+    .price-tag {
+      font-family: 'Playfair Display', serif;
+      font-size: 64px;
+      font-weight: 900;
+      color: var(--ink);
+      line-height: 1;
+      margin-bottom: 4px;
+    }
+
+    .price-note {
+      font-size: 14px;
+      color: var(--muted);
+      margin-bottom: 32px;
+    }
+
+    .includes {
+      text-align: left;
+      margin-bottom: 32px;
+    }
+
+    .includes li {
+      list-style: none;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      font-size: 15px;
+      color: var(--body);
+      padding: 7px 0;
+      border-bottom: 1px solid var(--rule);
+    }
+
+    .includes li:last-child { border-bottom: none; }
+
+    .check {
+      width: 20px;
+      height: 20px;
+      background: var(--amber);
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-shrink: 0;
+      font-size: 11px;
+      color: var(--brown);
+      font-weight: 700;
+    }
+
+    .cta-btn-lg {
+      display: block;
+      width: 100%;
+      background: var(--amber);
+      color: var(--brown);
+      font-family: 'DM Sans', sans-serif;
+      font-size: 18px;
+      font-weight: 700;
+      padding: 20px 32px;
+      border-radius: 10px;
+      text-decoration: none;
+      transition: transform 0.15s, box-shadow 0.15s, background 0.15s;
+      box-shadow: 0 4px 20px rgba(240,170,34,0.45);
+      margin-bottom: 16px;
+    }
+
+    .cta-btn-lg:hover {
+      background: var(--amber-dk);
+      color: var(--white);
+      transform: translateY(-2px);
+      box-shadow: 0 8px 32px rgba(201,139,16,0.5);
+    }
+
+    .guarantee {
+      font-size: 13px;
+      color: var(--muted);
+      line-height: 1.5;
+    }
+
+    .guarantee strong { color: var(--body); }
+
+    /* ── FOOTER ── */
+    footer {
+      background: var(--ink);
+      padding: 32px 24px;
+      text-align: center;
+    }
+
+    footer p {
+      font-size: 12px;
+      color: rgba(255,255,255,0.3);
+      line-height: 1.7;
+    }
+
+    footer a {
+      color: rgba(255,255,255,0.5);
+      text-decoration: none;
+    }
+
+    /* ── RESPONSIVE ── */
+    @media (max-width: 600px) {
+      .purchase-card { padding: 32px 22px 28px; }
+      .price-tag { font-size: 52px; }
+      .benefits { grid-template-columns: 1fr; }
+    }
+
+    /* ── ANIMATIONS ── */
+    @keyframes fadeUp {
+      from { opacity: 0; transform: translateY(24px); }
+      to   { opacity: 1; transform: translateY(0); }
+    }
+
+    .hero-badge  { animation: fadeUp 0.5s ease both; }
+    .hero h1     { animation: fadeUp 0.5s 0.1s ease both; }
+    .hero-sub    { animation: fadeUp 0.5s 0.2s ease both; }
+    .cta-btn     { animation: fadeUp 0.5s 0.3s ease both; }
+    .cta-price   { animation: fadeUp 0.5s 0.4s ease both; }
+    .book-wrap   { animation: fadeUp 0.6s 0.5s ease both; }
+  </style>
+</head>
+<body>
+
+<!-- ══════════════════════════════════════════
+     HERO
+══════════════════════════════════════════ -->
+<section class="hero">
+  <div class="hero-badge">📖 Instant Digital Download · $17</div>
+
+  <h1>Stop Stalking<br>Their Instagram.<br><em>Start Healing.</em></h1>
+
+  <p class="hero-sub">
+    A 30-day protocol to reclaim your peace, your identity,
+    and your life after a breakup.
+  </p>
+
+  <a
+    href="https://9851210364663.gumroad.com/l/the-no-contact-bible" data-gumroad-single-product="true"
+    class="cta-btn"
+    id="cta-hero"
+    onclick="trackCheckout()"
+    target="_blank"
+    rel="noopener"
+  >
+    I'm Ready to Heal — Get Instant Access →
+  </a>
+  <span class="cta-price">$17 · PDF · Instant download · 30-day money-back guarantee</span>
+
+  <!-- Book mockup -->
+  <div class="book-wrap">
+    <div class="book-cover">
+      <div class="book-title">The No<br>Contact<br>Bible</div>
+
+      <!-- Heart with keyhole icon (inline SVG) -->
+      <svg class="book-icon" viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M40 68 C40 68 8 48 8 26 C8 16 16 10 26 12 C32 13 37 17 40 22 C43 17 48 13 54 12 C64 10 72 16 72 26 C72 48 40 68 40 68Z" fill="#7A5200"/>
+        <circle cx="40" cy="34" r="8" fill="#F0AA22"/>
+        <rect x="37.5" y="40" width="5" height="9" rx="2" fill="#F0AA22"/>
+      </svg>
+
+      <div class="book-brand">Figure It Out</div>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════════════════════════════════
+     PAIN
+══════════════════════════════════════════ -->
+<section class="pain">
+  <h2>Sound familiar?</h2>
+
+  <div class="pain-items">
+    <div class="pain-item">
+      <strong>It's 3am.</strong> You told yourself you'd check their Instagram one last time.
+      That was an hour ago. You're still there, scrolling through photos
+      from two years ago.
+    </div>
+    <div class="pain-item">
+      <strong>You've written the message.</strong> Deleted it. Written it again.
+      You know you shouldn't send it. But you also know
+      you're one bad night away from doing it anyway.
+    </div>
+    <div class="pain-item">
+      <strong>People keep telling you to "just move on."</strong>
+      As if that's a thing you can decide to do.
+      As if you haven't been trying every single day.
+    </div>
+  </div>
+
+  <p class="pain-p">
+    What you're feeling isn't weakness. It's your brain in withdrawal —
+    doing exactly what it was designed to do. The problem isn't willpower.
+    It's that you don't have a protocol.
+  </p>
+</section>
+
+<!-- ══════════════════════════════════════════
+     WHAT IT IS
+══════════════════════════════════════════ -->
+<section class="what">
+  <div class="section-label">What you'll get</div>
+  <h2>Not a self-help book.<br>A 30-day operating system.</h2>
+
+  <div class="benefits">
+    <div class="benefit">
+      <div class="benefit-icon">🧠</div>
+      <h3>Why your brain is working against you</h3>
+      <p>The neuroscience of heartbreak — and how to use it to your advantage.</p>
+    </div>
+    <div class="benefit">
+      <div class="benefit-icon">⏱</div>
+      <h3>A 72-hour emergency protocol</h3>
+      <p>What to do in the first three days before the spiral takes over.</p>
+    </div>
+    <div class="benefit">
+      <div class="benefit-icon">📱</div>
+      <h3>Digital detox — platform by platform</h3>
+      <p>Exactly what to block, mute, and archive on every app. No guessing.</p>
+    </div>
+    <div class="benefit">
+      <div class="benefit-icon">📅</div>
+      <h3>Your week-by-week reset plan</h3>
+      <p>Four weeks of structured routines built around what actually works.</p>
+    </div>
+    <div class="benefit">
+      <div class="benefit-icon">💬</div>
+      <h3>When they reach out</h3>
+      <p>Scripts and rules for every type of message — so you don't decide in the moment.</p>
+    </div>
+    <div class="benefit">
+      <div class="benefit-icon">✦</div>
+      <h3>Who you are on Day 30</h3>
+      <p>How to know you've actually healed — and what a healthy next step looks like.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════════════════════════════════
+     CHAPTERS
+══════════════════════════════════════════ -->
+<section class="chapters">
+  <div class="section-label">Inside the book</div>
+  <h2>7 chapters. Zero fluff.</h2>
+
+  <div class="chapter-list">
+    <div class="chapter-row">
+      <span class="ch-num">Intro</span>
+      <span class="ch-title">Why You're Here (And Why That's Okay)</span>
+    </div>
+    <div class="chapter-row">
+      <span class="ch-num">Chapter 01</span>
+      <span class="ch-title">What No Contact Actually Is (And What It Isn't)</span>
+    </div>
+    <div class="chapter-row">
+      <span class="ch-num">Chapter 02</span>
+      <span class="ch-title">Why Your Brain Is Working Against You</span>
+    </div>
+    <div class="chapter-row">
+      <span class="ch-num">Chapter 03</span>
+      <span class="ch-title">The First 72 Hours: Surviving the Hardest Part</span>
+    </div>
+    <div class="chapter-row">
+      <span class="ch-num">Chapter 04</span>
+      <span class="ch-title">Detox Your Digital Life</span>
+    </div>
+    <div class="chapter-row">
+      <span class="ch-num">Chapter 05</span>
+      <span class="ch-title">Building Your 30-Day Reset Protocol</span>
+    </div>
+    <div class="chapter-row">
+      <span class="ch-num">Chapter 06</span>
+      <span class="ch-title">When They Reach Out (Because They Will)</span>
+    </div>
+    <div class="chapter-row">
+      <span class="ch-num">Chapter 07</span>
+      <span class="ch-title">Who You Are on Day 30 — and What Comes Next</span>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════════════════════════════════
+     PULL QUOTE
+══════════════════════════════════════════ -->
+<section class="quote-section">
+  <p class="quote-text">
+    "No contact isn't about making them miss you.
+    It's about finding yourself again."
+  </p>
+  <p class="quote-attr">— The No Contact Bible</p>
+</section>
+
+<!-- ══════════════════════════════════════════
+     PURCHASE
+══════════════════════════════════════════ -->
+<section class="purchase" id="get-access">
+  <div class="purchase-card">
+    <div class="price-tag">$17</div>
+    <p class="price-note">One-time · Instant PDF download</p>
+
+    <ul class="includes">
+      <li><span class="check">✓</span> The No Contact Bible (full PDF, 19 pages)</li>
+      <li><span class="check">✓</span> 7 complete chapters + action steps</li>
+      <li><span class="check">✓</span> 30-day week-by-week reset protocol</li>
+      <li><span class="check">✓</span> Digital detox checklist by platform</li>
+      <li><span class="check">✓</span> Instant access — download in 60 seconds</li>
+    </ul>
+
+    <a
+      href="https://9851210364663.gumroad.com/l/the-no-contact-bible" data-gumroad-single-product="true"
+      class="cta-btn-lg"
+      id="cta-purchase"
+      onclick="trackCheckout()"
+      target="_blank"
+      rel="noopener"
+    >
+      Get Instant Access →
+    </a>
+
+    <p class="guarantee">
+      <strong>30-day money-back guarantee.</strong><br>
+      If it doesn't help, email us for a full refund. No questions asked.
+    </p>
+  </div>
+</section>
+
+<!-- ══════════════════════════════════════════
+     FOOTER
+══════════════════════════════════════════ -->
+<footer>
+  <p>
+    © 2025 Figure It Out · <a href="/cdn-cgi/l/email-protection#93fbf6fffffcd3f5faf4e6e1f6fae7fce6e7bdf0fcfe"><span class="__cf_email__" data-cfemail="a9c1ccc5c5c6e9cfc0cedcdbccc0ddc6dcdd87cac6c4">[email&#160;protected]</span></a><br>
+    This guide is for informational purposes only and does not substitute professional mental health support.<br>
+    <a href="#">Privacy Policy</a> · <a href="#">Terms</a>
+  </p>
+</footer>
+
+<!-- InitiateCheckout event fires when user clicks any CTA -->
+<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script>
